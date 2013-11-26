@@ -16,22 +16,12 @@
 		64B93BAE184465F200ACC7B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64B93BAC184465F200ACC7B3 /* Main.storyboard */; };
 		64B93BB1184465F200ACC7B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B93BB0184465F200ACC7B3 /* ViewController.m */; };
 		64B93BB3184465F200ACC7B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64B93BB2184465F200ACC7B3 /* Images.xcassets */; };
-		64B93BBA184465F200ACC7B3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B93BB9184465F200ACC7B3 /* XCTest.framework */; };
-		64B93BBB184465F200ACC7B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B93B9A184465F200ACC7B3 /* Foundation.framework */; };
-		64B93BBC184465F200ACC7B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B93B9E184465F200ACC7B3 /* UIKit.framework */; };
-		64B93BC4184465F200ACC7B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64B93BC2184465F200ACC7B3 /* InfoPlist.strings */; };
-		64B93BC6184465F200ACC7B3 /* HTBCalendarViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B93BC5184465F200ACC7B3 /* HTBCalendarViewDemoTests.m */; };
+		64B93BDA1844665A00ACC7B3 /* HTBCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B93BD31844665A00ACC7B3 /* HTBCalendarHeaderView.m */; };
+		64B93BDB1844665A00ACC7B3 /* HTBCalendarTriangleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B93BD51844665A00ACC7B3 /* HTBCalendarTriangleButton.m */; };
+		64B93BDC1844665A00ACC7B3 /* HTBCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B93BD71844665A00ACC7B3 /* HTBCalendarView.m */; };
+		64B93BDD1844665A00ACC7B3 /* HTBCalendarViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B93BD91844665A00ACC7B3 /* HTBCalendarViewCell.m */; };
+		64B93BE31844668200ACC7B3 /* CalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B93BE11844668200ACC7B3 /* CalendarCell.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		64B93BBD184465F200ACC7B3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 64B93B8F184465F200ACC7B3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 64B93B96184465F200ACC7B3;
-			remoteInfo = HTBCalendarViewDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		64B93B97184465F200ACC7B3 /* HTBCalendarViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTBCalendarViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,11 +38,16 @@
 		64B93BAF184465F200ACC7B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		64B93BB0184465F200ACC7B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		64B93BB2184465F200ACC7B3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		64B93BB8184465F200ACC7B3 /* HTBCalendarViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTBCalendarViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		64B93BB9184465F200ACC7B3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		64B93BC1184465F200ACC7B3 /* HTBCalendarViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HTBCalendarViewDemoTests-Info.plist"; sourceTree = "<group>"; };
-		64B93BC3184465F200ACC7B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		64B93BC5184465F200ACC7B3 /* HTBCalendarViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTBCalendarViewDemoTests.m; sourceTree = "<group>"; };
+		64B93BD21844665A00ACC7B3 /* HTBCalendarHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTBCalendarHeaderView.h; sourceTree = "<group>"; };
+		64B93BD31844665A00ACC7B3 /* HTBCalendarHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTBCalendarHeaderView.m; sourceTree = "<group>"; };
+		64B93BD41844665A00ACC7B3 /* HTBCalendarTriangleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTBCalendarTriangleButton.h; sourceTree = "<group>"; };
+		64B93BD51844665A00ACC7B3 /* HTBCalendarTriangleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTBCalendarTriangleButton.m; sourceTree = "<group>"; };
+		64B93BD61844665A00ACC7B3 /* HTBCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTBCalendarView.h; sourceTree = "<group>"; };
+		64B93BD71844665A00ACC7B3 /* HTBCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTBCalendarView.m; sourceTree = "<group>"; };
+		64B93BD81844665A00ACC7B3 /* HTBCalendarViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTBCalendarViewCell.h; sourceTree = "<group>"; };
+		64B93BD91844665A00ACC7B3 /* HTBCalendarViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTBCalendarViewCell.m; sourceTree = "<group>"; };
+		64B93BE01844668200ACC7B3 /* CalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarCell.h; sourceTree = "<group>"; };
+		64B93BE11844668200ACC7B3 /* CalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,24 +61,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		64B93BB5184465F200ACC7B3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				64B93BBA184465F200ACC7B3 /* XCTest.framework in Frameworks */,
-				64B93BBC184465F200ACC7B3 /* UIKit.framework in Frameworks */,
-				64B93BBB184465F200ACC7B3 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		64B93B8E184465F200ACC7B3 = {
 			isa = PBXGroup;
 			children = (
+				64B93BD11844665A00ACC7B3 /* HTBCalendarView */,
 				64B93BA0184465F200ACC7B3 /* HTBCalendarViewDemo */,
-				64B93BBF184465F200ACC7B3 /* HTBCalendarViewDemoTests */,
 				64B93B99184465F200ACC7B3 /* Frameworks */,
 				64B93B98184465F200ACC7B3 /* Products */,
 			);
@@ -93,7 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				64B93B97184465F200ACC7B3 /* HTBCalendarViewDemo.app */,
-				64B93BB8184465F200ACC7B3 /* HTBCalendarViewDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,7 +88,6 @@
 				64B93B9A184465F200ACC7B3 /* Foundation.framework */,
 				64B93B9C184465F200ACC7B3 /* CoreGraphics.framework */,
 				64B93B9E184465F200ACC7B3 /* UIKit.framework */,
-				64B93BB9184465F200ACC7B3 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,11 +95,13 @@
 		64B93BA0184465F200ACC7B3 /* HTBCalendarViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				64B93BAF184465F200ACC7B3 /* ViewController.h */,
+				64B93BB0184465F200ACC7B3 /* ViewController.m */,
+				64B93BE01844668200ACC7B3 /* CalendarCell.h */,
+				64B93BE11844668200ACC7B3 /* CalendarCell.m */,
 				64B93BA9184465F200ACC7B3 /* AppDelegate.h */,
 				64B93BAA184465F200ACC7B3 /* AppDelegate.m */,
 				64B93BAC184465F200ACC7B3 /* Main.storyboard */,
-				64B93BAF184465F200ACC7B3 /* ViewController.h */,
-				64B93BB0184465F200ACC7B3 /* ViewController.m */,
 				64B93BB2184465F200ACC7B3 /* Images.xcassets */,
 				64B93BA1184465F200ACC7B3 /* Supporting Files */,
 			);
@@ -134,22 +119,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		64B93BBF184465F200ACC7B3 /* HTBCalendarViewDemoTests */ = {
+		64B93BD11844665A00ACC7B3 /* HTBCalendarView */ = {
 			isa = PBXGroup;
 			children = (
-				64B93BC5184465F200ACC7B3 /* HTBCalendarViewDemoTests.m */,
-				64B93BC0184465F200ACC7B3 /* Supporting Files */,
+				64B93BD61844665A00ACC7B3 /* HTBCalendarView.h */,
+				64B93BD71844665A00ACC7B3 /* HTBCalendarView.m */,
+				64B93BD21844665A00ACC7B3 /* HTBCalendarHeaderView.h */,
+				64B93BD31844665A00ACC7B3 /* HTBCalendarHeaderView.m */,
+				64B93BD41844665A00ACC7B3 /* HTBCalendarTriangleButton.h */,
+				64B93BD51844665A00ACC7B3 /* HTBCalendarTriangleButton.m */,
+				64B93BD81844665A00ACC7B3 /* HTBCalendarViewCell.h */,
+				64B93BD91844665A00ACC7B3 /* HTBCalendarViewCell.m */,
 			);
-			path = HTBCalendarViewDemoTests;
-			sourceTree = "<group>";
-		};
-		64B93BC0184465F200ACC7B3 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				64B93BC1184465F200ACC7B3 /* HTBCalendarViewDemoTests-Info.plist */,
-				64B93BC2184465F200ACC7B3 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
+			path = HTBCalendarView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,24 +154,6 @@
 			productReference = 64B93B97184465F200ACC7B3 /* HTBCalendarViewDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		64B93BB7184465F200ACC7B3 /* HTBCalendarViewDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 64B93BCC184465F200ACC7B3 /* Build configuration list for PBXNativeTarget "HTBCalendarViewDemoTests" */;
-			buildPhases = (
-				64B93BB4184465F200ACC7B3 /* Sources */,
-				64B93BB5184465F200ACC7B3 /* Frameworks */,
-				64B93BB6184465F200ACC7B3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				64B93BBE184465F200ACC7B3 /* PBXTargetDependency */,
-			);
-			name = HTBCalendarViewDemoTests;
-			productName = HTBCalendarViewDemoTests;
-			productReference = 64B93BB8184465F200ACC7B3 /* HTBCalendarViewDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,11 +162,6 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "The High Technology Group";
-				TargetAttributes = {
-					64B93BB7184465F200ACC7B3 = {
-						TestTargetID = 64B93B96184465F200ACC7B3;
-					};
-				};
 			};
 			buildConfigurationList = 64B93B92184465F200ACC7B3 /* Build configuration list for PBXProject "HTBCalendarViewDemo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -218,7 +177,6 @@
 			projectRoot = "";
 			targets = (
 				64B93B96184465F200ACC7B3 /* HTBCalendarViewDemo */,
-				64B93BB7184465F200ACC7B3 /* HTBCalendarViewDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,14 +192,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		64B93BB6184465F200ACC7B3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				64B93BC4184465F200ACC7B3 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -250,28 +200,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				64B93BB1184465F200ACC7B3 /* ViewController.m in Sources */,
+				64B93BDC1844665A00ACC7B3 /* HTBCalendarView.m in Sources */,
 				64B93BAB184465F200ACC7B3 /* AppDelegate.m in Sources */,
+				64B93BDA1844665A00ACC7B3 /* HTBCalendarHeaderView.m in Sources */,
+				64B93BDD1844665A00ACC7B3 /* HTBCalendarViewCell.m in Sources */,
+				64B93BDB1844665A00ACC7B3 /* HTBCalendarTriangleButton.m in Sources */,
+				64B93BE31844668200ACC7B3 /* CalendarCell.m in Sources */,
 				64B93BA7184465F200ACC7B3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		64B93BB4184465F200ACC7B3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				64B93BC6184465F200ACC7B3 /* HTBCalendarViewDemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		64B93BBE184465F200ACC7B3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 64B93B96184465F200ACC7B3 /* HTBCalendarViewDemo */;
-			targetProxy = 64B93BBD184465F200ACC7B3 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		64B93BA3184465F200ACC7B3 /* InfoPlist.strings */ = {
@@ -288,14 +227,6 @@
 				64B93BAD184465F200ACC7B3 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		64B93BC2184465F200ACC7B3 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				64B93BC3184465F200ACC7B3 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -399,48 +330,6 @@
 			};
 			name = Release;
 		};
-		64B93BCD184465F200ACC7B3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HTBCalendarViewDemo.app/HTBCalendarViewDemo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HTBCalendarViewDemo/HTBCalendarViewDemo-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "HTBCalendarViewDemoTests/HTBCalendarViewDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		64B93BCE184465F200ACC7B3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HTBCalendarViewDemo.app/HTBCalendarViewDemo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HTBCalendarViewDemo/HTBCalendarViewDemo-Prefix.pch";
-				INFOPLIST_FILE = "HTBCalendarViewDemoTests/HTBCalendarViewDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -458,14 +347,6 @@
 			buildConfigurations = (
 				64B93BCA184465F200ACC7B3 /* Debug */,
 				64B93BCB184465F200ACC7B3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		64B93BCC184465F200ACC7B3 /* Build configuration list for PBXNativeTarget "HTBCalendarViewDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				64B93BCD184465F200ACC7B3 /* Debug */,
-				64B93BCE184465F200ACC7B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
