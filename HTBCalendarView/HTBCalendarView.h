@@ -33,6 +33,7 @@
 - (IBAction)gotoNextMonth:(id)sender;
 - (IBAction)gotoPreviousMonth:(id)sender;
 - (void)reloadData;
+- (void)scrollToCurrentMonthAnimated:(BOOL)animated;
 
 @end
 

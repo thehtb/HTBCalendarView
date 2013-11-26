@@ -34,7 +34,6 @@
 - (NSDate *)dateForLastCell;
 - (NSInteger)numberOfDaysInWeek;
 - (void)reloadCollectionView;
-- (void)scrollToCurrentMonthAnimated:(BOOL)animated;
 - (NSInteger)itemIndexForDate:(NSDate *)date;
 - (NSDate *)firstDayOfMonth:(NSDate *)date;
 - (NSDate *)lastDayOfMonth:(NSDate *)date;
