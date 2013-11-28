@@ -62,6 +62,11 @@
     self.prevMonthButton.transform = CGAffineTransformMakeScale(-1, 1);
     [self addSubview:self.prevMonthButton];
     
+    [self updateDayNameLabels];
+}
+
+- (void)updateDayNameLabels
+{
     NSArray * dayNames = [self dayNames];
     NSMutableArray * dayNameLabels = [NSMutableArray arrayWithCapacity:[dayNames count]];
     for (NSString * name in dayNames)
@@ -90,6 +95,7 @@
     
     [self.nextMonthButton addTarget:self.calendarView action:@selector(gotoNextMonth:) forControlEvents:UIControlEventTouchUpInside];
     [self.prevMonthButton addTarget:self.calendarView action:@selector(gotoPreviousMonth:) forControlEvents:UIControlEventTouchUpInside];
+    [self updateDayNameLabels];
 }
 
 - (void)layoutSubviews
