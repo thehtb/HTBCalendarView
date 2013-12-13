@@ -55,10 +55,10 @@
     UITapGestureRecognizer * yearGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(didTapYear:)];
     [self.yearHolder addGestureRecognizer:yearGesture];
     
-    self.nextMonthButton = [[HTBCalendarTriangleButton alloc] initWithFrame:(CGRect){ CGPointZero, { 25, 25 }}];
+    self.nextMonthButton = [[HTBCalendarTriangleButton alloc] initWithFrame:(CGRect){ CGPointZero, { 36, 25 }}];
     [self addSubview:self.nextMonthButton];
     
-    self.prevMonthButton = [[HTBCalendarTriangleButton alloc] initWithFrame:(CGRect){ CGPointZero, { 25, 25 }}];
+    self.prevMonthButton = [[HTBCalendarTriangleButton alloc] initWithFrame:(CGRect){ CGPointZero, { 36, 25 }}];
     self.prevMonthButton.transform = CGAffineTransformMakeScale(-1, 1);
     [self addSubview:self.prevMonthButton];
     
@@ -112,8 +112,8 @@
     [self layoutMonthLabel:self.monthLabel];
     [self layoutYearLabel:self.yearLabel];
     
-    self.nextMonthButton.center = (CGPoint){ bounds.size.width - self.nextMonthButton.bounds.size.width, floor(bounds.size.height / 3) };
-    self.prevMonthButton.center = (CGPoint){ self.prevMonthButton.bounds.size.width, floor(bounds.size.height / 3) };
+    self.nextMonthButton.center = (CGPoint){ bounds.size.width - (self.nextMonthButton.bounds.size.width / 2), floor(bounds.size.height / 3) };
+    self.prevMonthButton.center = (CGPoint){ self.prevMonthButton.bounds.size.width/2, floor(bounds.size.height / 3) };
     
     CGFloat dayCenterSpacing = bounds.size.width / [self.dayNameLabels count];
     CGFloat x = dayCenterSpacing / 2;
