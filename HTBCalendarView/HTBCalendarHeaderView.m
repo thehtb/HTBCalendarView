@@ -55,10 +55,10 @@
     UITapGestureRecognizer * yearGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(didTapYear:)];
     [self.yearHolder addGestureRecognizer:yearGesture];
     
-    self.nextMonthButton = [[HTBCalendarTriangleButton alloc] initWithFrame:(CGRect){ CGPointZero, { 36, 25 }}];
+    self.nextMonthButton = [[HTBCalendarTriangleButton alloc] initWithFrame:(CGRect){ CGPointZero, { 36, 36 }}];
     [self addSubview:self.nextMonthButton];
     
-    self.prevMonthButton = [[HTBCalendarTriangleButton alloc] initWithFrame:(CGRect){ CGPointZero, { 36, 25 }}];
+    self.prevMonthButton = [[HTBCalendarTriangleButton alloc] initWithFrame:(CGRect){ CGPointZero, { 36, 36 }}];
     self.prevMonthButton.transform = CGAffineTransformMakeScale(-1, 1);
     [self addSubview:self.prevMonthButton];
     

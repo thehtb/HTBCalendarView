@@ -54,6 +54,9 @@
     
     //// Frames
     CGRect frame = self.bounds;
+    frame.size.height -= 4;
+    frame.origin.y = 4;
+    frame.origin.x += 8;
     
     //// Polygon Drawing
     UIBezierPath* polygonPath = [UIBezierPath bezierPath];
